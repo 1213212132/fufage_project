@@ -6,17 +6,10 @@ body {
     min-width: 1200px;
 }
 
-.header {
+.header {}
 
 
-    top: 0;
-    border-bottom: 1px solid transparent;
-    z-index: 99999;
-}
-
-.header .on {
-
-
+.header .on .menu_wrap {
     background: #fff;
 }
 
@@ -32,12 +25,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 }
 
 .header .gnb {
 
+
     display: inline-block;
 }
+
+
 
 .header .gnb>ul {
 
@@ -193,5 +191,21 @@ body {
     font-family: "GmarketSans";
     font-weight: bold;
     line-height: 1;
+
+}
+
+
+
+.main .inner .right {
+
+    float: right;
+
+}
+
+.main .inner .right h2 {
+
+    position: absolute;
+    left: 55%;
+    top: 28%;
 
 }
