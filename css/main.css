@@ -1,0 +1,197 @@
+body {
+    overflow-x: hidden;
+}
+
+.wrap {
+    min-width: 1200px;
+}
+
+.header {
+
+
+    top: 0;
+    border-bottom: 1px solid transparent;
+    z-index: 99999;
+}
+
+.header .on {
+
+
+    background: #fff;
+}
+
+
+.header a {
+    display: block;
+}
+
+.header .menu_wrap {
+
+    height: 110px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .gnb {
+
+    display: inline-block;
+}
+
+.header .gnb>ul {
+
+
+
+    font-family: 'GmarketSansMedium';
+    display: flex;
+    font-size: 18px;
+    gap: 40px;
+    color: #222;
+    padding-left: 130px;
+
+}
+
+.header .gnb>ul>a {
+
+    font-size: 16px;
+    white-space: nowrap;
+
+}
+
+.header .gnb>ul>li {
+
+
+    position: relative;
+    white-space: nowrap;
+    word-break: keep-all;
+    margin-right: 5%;
+}
+
+
+
+.header_visual {
+    font-family: 'GmarketSansMedium';
+    position: relative;
+    min-width: 100vh;
+    min-height: 840px;
+    background: url(../img/mvisual.jpg) no-repeat;
+
+
+}
+
+.header .slogan {
+    position: absolute;
+    display: block;
+
+    color: #fff;
+
+    top: 10%;
+    transform: translate(0, 50%);
+    line-height: 1.8;
+
+    font-family: 'KCCChassam';
+}
+
+.header .slogan span {
+
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header .slogan h2 {
+
+
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.header .slogan p {
+
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/**/
+
+.main {
+    font-family: 'GmarketSansMedium';
+}
+
+.main .news {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 50%);
+
+}
+
+.main .inner .left {
+    position: absolute;
+    top: 28%;
+}
+
+.main .inner .left ul {
+
+    top: 0;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.main .inner .left strong {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.main .inner .left .desc {
+    width: 45%;
+    color: #8b8b8b;
+
+}
+
+
+
+.main .inner .left .date {
+
+
+    height: 100px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.main .inner .left .date p {
+
+    order: 2;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    color: #989898;
+    line-height: 2;
+}
+
+
+.main .inner .left .date span {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #555;
+    font-family: "GmarketSans";
+    font-weight: bold;
+    line-height: 1;
+
+}
